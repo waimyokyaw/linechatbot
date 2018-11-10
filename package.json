@@ -1,0 +1,29 @@
+{
+  "name": "line-chatbot",
+  "version": "0.0.1",
+  "description": "A sample Node.js LINE ChatBot app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "line-bot-sdk": "*",
+    "lodash": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waimyokyaw/linechatbot"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "line-bot-sdk"
+  ],
+  "license": "MIT"
+}
